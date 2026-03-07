@@ -1,0 +1,11 @@
+node_modules
+public/
+private/
+routes/
+views/
+bin/
+*.pem
+*.txt
+app.js
+engine.js
+websocket.js
