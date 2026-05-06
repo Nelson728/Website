@@ -1,0 +1,61 @@
+doctype html
+html(lang="en-US")
+    head
+        //
+            Writen by Devlin Englehart
+            :3
+        meta(charset='utf8', \='')
+        meta(http-equiv='Content-Type' content='text/html; charset=UTF-8')
+        meta(name='theme-color' content='#141414')
+        meta(name='viewport' content='width=device-width, initial-scale=1.0')
+        meta(name='description' content='Welcome to my portfolio')
+        meta(name='author' content='Devlin Englehart')
+        link(rel='stylesheet', href='./stylesheets/about.css')
+        title= "about me"
+        //link(rel="icon" type="image/png" href="favicon.png")
+        //script(async='' src='https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3259569898752915' crossorigin='anonymous')
+    body 
+        div(id="page" class="visual-refresh")
+            
+            div#head.bordered.hoverHighlight
+                span.container head
+                h1(class="centered") Devlin Englehart
+                h3.centered <a href="mailto:devlindehey07@gmail.com">devlindehey07@gmail.com</a>
+            div#body
+                div#nav.bordered.hoverHighlight
+                    span.container nav
+                    div(class=`dir ${activeDir}`)
+                        a(href="home").bordered.hoverHighlight.highlight
+                            div
+                                span home
+                        a(href="about").bordered.hoverHighlight.highlight
+                            div
+                                span about
+                        a(href="cognition").bordered.hoverHighlight.highlight
+                            div 
+                                span cognition
+                        a(href="interests").bordered.hoverHighlight.highlight
+                            div 
+                                span interests
+                        a(href="resume").bordered.hoverHighlight.highlight
+                            div 
+                                span resume
+                        a(href="experience").bordered.hoverHighlight.highlight
+                            div
+                                span experience
+                        //- a(href="portfolio").bordered.hoverHighlight.highlight
+                        //-     div
+                        //-         span portfolio
+                        a(href="documents").bordered.hoverHighlight.highlight
+                            div
+                                span documents
+                block content
+        div#footer.bordered.hoverHighlight
+            span.container footer
+            p.centered © 2025 Devlin. All rights reserved.
+            p.centered Email: <a href="mailto:devlindehey07@gmail.com">devlindehey07@gmail.com</a><br><em>*Phone available upon request*</em><br>
+            br
+            p.centered Includes fan-inspired ASCII art referencing S;G.<br>Not affiliated with or endorsed by the creators of Steins;Gate.<br>
+            br
+            p.centered Hand coded with curiosity and caffeine.
+            p.centered "El Psy Kongroo"

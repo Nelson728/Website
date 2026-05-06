@@ -27,4 +27,3 @@ if (!userName || userName == "") {
     console.log(output)
     console.log(`UUID: ${uuid}\nAPI Key: ${key}`)
 }
-
