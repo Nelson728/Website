@@ -30,7 +30,7 @@ html {
     a:visited {
         color: var(--text-2);
         transition: color 0.3s ease-in-out;
-        text-decoration: none;
+        text-decoration: underline;
     }
     a:hover {
         color: var(--text-1);
@@ -47,6 +47,9 @@ h1 {
 }
 h3 {
     font-size: clamp(0.17rem, 2vw, 1.17rem);
+}
+h4 {
+    color: var(--text-1);
 }
 
 .bordered {
@@ -324,12 +327,19 @@ h3 {
         left: 1rem;
     }
 }
-
+#resumeContent::-webkit-scrollbar{
+    background-color: var(--background)
+}
+#resumeContent::-webkit-scrollbar-thumb{
+    background-color: var(--text-2)
+}
 #resumeContent {
     display: flex;
     position: relative;
     flex-direction: column;
     overflow-y: scroll !important;
+    
+    margin-bottom: var(--size-sm);
     #subtitle {
         border-right: solid var(--text-3);
         padding: 0 var(--size-sm) var(--size-sm) var(--size-sm);
